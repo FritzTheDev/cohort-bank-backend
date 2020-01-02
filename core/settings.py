@@ -26,7 +26,7 @@ SECRET_KEY = '1a08p%f89!*u!*lqfky90eu%iut_^oi&%)8-c2j8ad$)+^3gxx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['staging-cohort-bank.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','staging-cohort-bank.herokuapp.com']
 
 CORS_ORIGIN_ALLOW_ALL=True
 
