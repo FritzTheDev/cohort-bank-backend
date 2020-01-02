@@ -10,6 +10,8 @@ django = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
 psycopg2-binary = "*"
+dj-database-url = "*"
+django-dotenv = "*"
 
 [requires]
 python_version = "3.7"
