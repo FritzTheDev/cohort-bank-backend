@@ -13,6 +13,7 @@ psycopg2-binary = "*"
 dj-database-url = "*"
 django-dotenv = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
