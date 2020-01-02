@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['staging-cohort-bank.herokuapp.com']
 
+CORS_ORIGIN_ALLOW_ALL=True
+
 
 # Application definition
 
