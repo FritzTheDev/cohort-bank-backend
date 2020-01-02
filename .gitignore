@@ -89,6 +89,9 @@ target/
 #   install all needed dependencies.
 #Pipfile.lock
 
+# VsCode
+.vscode/
+
 # celery beat schedule file
 celerybeat-schedule
 
