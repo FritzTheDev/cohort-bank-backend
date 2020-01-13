@@ -14,6 +14,7 @@ dj-database-url = "*"
 django-dotenv = "*"
 whitenoise = "*"
 gunicorn = "*"
+django-rest-knox = "*"
 
 [requires]
 python_version = "3.7"
