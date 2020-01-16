@@ -1,10 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
-from .views import LoginView
+from rest_framework_simplejwt.views import TokenObtainPairView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('branches.urls')),
-    path('auth/login/', LoginView.as_view()),
-    path('auth/', include('knox.urls'))
+    path('api/token/', TokenObtainPairView.as_view(), name="token_obtain_pair")
 ]
