@@ -1,5 +1,6 @@
 import os
 import dj_database_url
+from datetime import timedelta
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -36,6 +37,10 @@ INSTALLED_APPS = [
     'knox',
     'branches'
 ]
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=7)
+}
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework_simplejwt.authentication.JWTAuthentication',),
